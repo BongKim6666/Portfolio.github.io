@@ -1,0 +1,145 @@
+.about {
+  width: 1040px;
+  height: auto;
+  padding: 110px 200px 40px;
+  /* background-color: #f7f7f9; */
+}
+.about .content_top {
+  display: flex;
+  width: 1040px;
+  height: 300px;
+  justify-content: space-around;
+}
+.about .about_content {
+  width: 630px;
+  height: 300px;
+}
+.about .about_content p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #373a3c;
+  font-weight: 500;
+}
+
+.about .about_content .sp-txt {
+  color: rgb(85, 0, 255);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about .about_content p:last-of-type {
+  line-height: 2;
+}
+
+.about .mine-img {
+  width: 300px;
+  height: 300px;
+}
+
+.about .mine-img img {
+  width: 100%;
+  height: 100%;
+}
+.about .title1 {
+  text-align: center;
+  margin: 130px auto 0;
+  font-size: 50px;
+}
+
+.about .content_middle .skill {
+  display: flex;
+  width: 1038px;
+  height: 598px;
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+  justify-content: space-around;
+}
+
+.about .content_middle .skill .item {
+  width: 45%;
+  height: 528px;
+  padding: 30px;
+  text-align: center;
+  border-right: 1px solid #e2e2e2;
+}
+
+.about .content_middle .item:last-child {
+  border-right: none;
+}
+
+.about .content_middle .intro-wrapper {
+  width: 938px;
+  height: 959px;
+  padding: 60px 50px;
+  margin-bottom: 80px;
+  /* border: 1px solid #e2e2e2; */
+  border-radius: 6px;
+  background-color: none;
+  font-size: 15px;
+}
+
+.about .content_middle .intro-wrapper .logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.about .content_middle .intro-wrapper .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.about .content_middle .intro-wrapper .color-title {
+  margin: 30px 0;
+  color: #6e07f3;
+}
+
+.about .intro-wrapper .title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about .intro-wrapper .info {
+  width: 350px;
+  height: 200px;
+  text-align: right;
+}
+.about .intro-wrapper .info tr td:first-of-type {
+  width: 30%;
+}
+
+.about .intro-wrapper .info tr td:last-of-type {
+  width: 70%;
+  padding-left: 20px;
+}
+
+.about .intro-wrapper .ar {
+  line-height: 2.5;
+}
+
+.about .skill .item span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 20px;
+}
+
+.about .skill .item span img {
+  width: 100%;
+  height: 100%;
+}
+
+.about .skill .item .title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about .skill .item .ar {
+  margin-bottom: 35px;
+}
+
+.about .skill .item .color-title {
+  color: #6e07f3;
+}

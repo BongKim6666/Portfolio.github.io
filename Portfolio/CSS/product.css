@@ -1,0 +1,81 @@
+.project {
+  width: 1040px;
+  height: auto;
+  padding: 80px 200px 40px;
+  /* background-color: pink; */
+}
+
+.project .title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.project .content_wrapper {
+  display: flex;
+  width: 1040px;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.project .content_wrapper .item {
+  position: relative;
+  height: 165px;
+  border: 1px solid black;
+}
+
+.project .content_wrapper .item img {
+  width: 340px;
+  height: 165px;
+}
+
+.project .content_wrapper .item .fig_title {
+  display: none;
+}
+
+.project .content_wrapper .item:hover .fig_title {
+  display: block;
+}
+.project .content_wrapper .item figcaption {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 125px;
+  opacity: 1;
+  padding: 20px;
+  transition: 0.45s ease-in-out;
+}
+
+.project .content_wrapper .item:hover figcaption {
+  background-color: rgba(38, 38, 209, 0.5);
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 1.8rem;
+  font-weight: 500;
+}
+
+.project .content_wrapper .item .fig_btn {
+  display: none;
+  width: 120px;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 auto;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #6e07f3;
+  border-color: #6e07f3;
+  border-radius: 12px;
+}
+
+.project .content_wrapper .item:hover .fig_btn {
+  display: block;
+}
