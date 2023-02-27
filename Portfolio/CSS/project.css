@@ -51,14 +51,15 @@
 }
 
 .project .content_wrapper .url-btn {
-  display: block;
-  width: 70px;
-  height: 15px;
-  line-height: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 25px;
+  line-height: 25px;
   padding: 10px 20px;
   background-color: #6c7279;
   color: white;
   text-align: center;
+  margin-right: 10px;
 }
 
 .project .content_wrapper .url-btn:hover {
